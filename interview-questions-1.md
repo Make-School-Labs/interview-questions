@@ -63,6 +63,7 @@ Do not assume that the block will map to the grid.
 ```
 mapBlockToGrid(x, y, block) {
   ... 
+  return [...] // new grid array with block mapped at x and y
 }
 
 var block = [
