@@ -53,3 +53,43 @@ Explain [weak self] and [unowned self] ?
 Write a function that draws a sine wave it should take in 
 period and amplitude as params. 
 
+## 9 
+
+Write the function below. It should take in an x and y 
+and an array of 4 arrays. 
+
+Do not assume that the block will map to the grid. 
+
+```
+mapBlockToGrid(x, y, block) {
+  ... 
+}
+
+var block = [
+  [0,1,0,0], 
+  [0,1,1,0], 
+  [0,0,1,0], 
+  [0,0,0,0]
+]
+
+// Example the block above should map to the grid below. 
+
+mapBlockToGrid(4, 3, block)
+
+[
+  [0,0,0,0,0,0,0,0,0,0],
+  [0,0,0,0,0,0,0,0,0,0],
+  [0,0,0,0,0,0,0,0,0,0],
+  [0,0,0,0,0,1,0,0,0,0],
+  [0,0,0,0,0,1,1,0,0,0],
+  [0,0,0,0,0,0,1,0,0,0],
+  [0,0,0,0,0,0,0,0,0,0],
+  [0,0,0,0,0,0,0,0,0,0],
+  [0,0,0,0,0,0,0,0,0,0],
+  [0,0,0,0,0,0,0,0,0,0],
+  [0,0,0,0,0,0,0,0,0,0],
+  [0,0,0,0,0,0,0,0,0,0]
+]
+````
+
+
